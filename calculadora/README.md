@@ -1,20 +1,20 @@
-# Calculadora com React.js + TailwindCSS
+# Calculadora com React.js + TailwindCSS 🧮
 
 Projeto de uma calculadora básica desenvolvida com **React.js** e estilizada com **TailwindCSS**.
 
-## Funcionalidades
+## ✨ Funcionalidades
 
-- Operações básicas: soma, subtração, multiplicação e divisão
-- Interface responsiva e simples
-- Estilização com TailwindCSS
+- Operações básicas: soma, subtração, multiplicação e divisão  
+- Interface responsiva  
+- Estilização com TailwindCSS  
 
-## Tecnologias
+## 🛠️ Tecnologias
 
-- React.js
-- TailwindCSS
-- JavaScript (ES6+)
+- React.js  
+- TailwindCSS  
+- JavaScript (ES6+)  
 
-## Como executar
+## ▶️ Como executar
 
 1. Clone o repositório:
    ```bash
