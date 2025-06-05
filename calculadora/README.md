@@ -1,12 +1,41 @@
-# React + Vite
+# Calculadora com React.js + TailwindCSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto de uma calculadora básica desenvolvida com **React.js** e estilizada com **TailwindCSS**.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Operações básicas: soma, subtração, multiplicação e divisão
+- Interface responsiva e simples
+- Estilização com TailwindCSS
 
-## Expanding the ESLint configuration
+## Tecnologias
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- TailwindCSS
+- JavaScript (ES6+)
+
+## Como executar
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   ```
+
+2. Acesse a pasta do projeto:
+   ```bash
+   cd nome-do-repositorio
+   ```
+
+3. Instale as dependências com pnpm:
+   ```bash
+   pnpm install
+   ```
+
+4. Inicie o projeto:
+   ```bash
+   pnpm dev
+   ```
+
+---
+
+Projeto desenvolvido como prática dos conceitos aprendidos com React e Tailwind.
