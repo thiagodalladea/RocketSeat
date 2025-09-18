@@ -15,15 +15,29 @@ import http from 'http';
 // PATCH  -> Atualizar uma informação única ou específica do back-end
 // DELETE -> Deletar uma recurso/informação no back-end
 
+// Stateful -> "não utiliza banco de dados"
+// Stateless -> "utiliza banco de dados"
+
+// Cabeçalhos (requisição/resposta) -> metadados 
+
+const users = [];
+
 const server = http.createServer((req, res) => {
     const { method, url } = req;
     console.log(method, url);
 
     if (method === 'GET' && url === '/users') {
-        return res.end('Listagem de usuários da aplicação');
+        return res
+            .setHeader("Content-type", "application/json ")
+            .end(`Listagem de usuários da aplicação\n${JSON.stringify(users)}`);
     }
     
     if (method === 'POST' && url === '/users') {
+        users.push({
+            id: 1,
+            name: "Thiago",
+            email: "thiago@exemplo.com",
+        });
         return res.end('Criação de usuários da aplicação');
     }
 
